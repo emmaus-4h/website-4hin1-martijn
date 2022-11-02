@@ -9,8 +9,8 @@
 
 html, body {                      /* geldt voor html en body */
   margin: 0px;                    /* standaard marge 0 */
-  background-color: #fffbb9;    /* achtergrondkleur lichtgrijs */
-  color: #000000;               /* tekstkleur donkergrijs */
+  background-color: #000000;    /* achtergrondkleur lichtgrijs */
+  color: #ffffff;               /* tekstkleur donkergrijs */
 }  
 
 body * {                          /* geldt voor alles in body */
@@ -39,7 +39,7 @@ h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
 } 
 
 p {
-  margin: 10px 0px;
+  margin: 10px px;
   text-align: justify;            /* tekst links en rechts uitvullen */
 }
 
@@ -48,16 +48,22 @@ p {
   
 }
 .kolomLinks {
+  margin-right:20px;
   float:left;
-  width:350px;
-  padding-right:15px;           /* afstand tussen plaatje en rechterkolom */
+
 }
 .kolomRechts {
+  margin-left:20px;
   float:right;
-  width: 250px;
 }
-.kolomStop {
-  clear:both;                   /* stop met floaten */
+.rij {}
+
+.plaatje {
+ 
+  width: 200px;
+}
+.tekst {
+  width: 450px;
 }
 
 /* Opmaak voor alle pagina's */
