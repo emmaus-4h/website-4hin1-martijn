@@ -7,11 +7,25 @@
 
 /* Basisinstellingen voor alle pagina's, alleen aanpassen als je pro wilt worden */
 
-html, body {                      /* geldt voor html en body */
-  margin: 0px;                    /* standaard marge 0 */
-  background-color: #000000;    /* achtergrondkleur lichtgrijs */
-  color: #ffffff;               /* tekstkleur donkergrijs */
-}  
+/* tekstkleur donkergrijs */
+
+
+
+
+
+
+
+
+
+html, body{
+  height:100%;
+  padding:0;
+  background-image:url('afbeeldingen/achtergrond.jpg');
+  background-repeat:repeat;
+  background-attachments:fixed;
+  background-size: 100% 100%;
+
+}
 
 body * {                          /* geldt voor alles in body */
   overflow:hidden;                /* zorgt dat DIV en andere block elementen de hoogte krijgt van wat erin zit (anders is het soms 0) */
@@ -63,13 +77,16 @@ p {
   width: 200px;
 }
 .tekst {
+  color:white;
+  background-color: rgba(0,0,255,0.3);
   width: 450px;
+  padding: 10px;
 }
 
 /* Opmaak voor alle pagina's */
 
 h1, h2, h3 {
-      color: skyblue;
+      color: #ffffff;
 }
 
 .smalltext {
@@ -78,7 +95,7 @@ h1, h2, h3 {
 }
 
 a {
-    color: skyblue;
+    color: #00a3d7;
     text-decoration: none;
 }
 
@@ -92,7 +109,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #006d8f;
+    background-color: #ffffff;
     overflow: hidden;
 }
 
@@ -102,7 +119,7 @@ nav ul li {
 
 nav li a {
     display: block;
-    color: #ffffff;
+    color: #006d8f;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
