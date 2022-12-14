@@ -17,13 +17,31 @@
 
 
 
-html, body{
-  height:100%;
-  padding:0;
-  background-image:url('afbeeldingen/wolk.jpg');
-  background-repeat:repeat;
-  background-attachments:fixed;
-  background-size: 100% 100%;
+.bg {
+
+background-image: url("afbeeldingen/wolken-clouds-blauwe-lucht-660x440.jpg");
+height: 100%;  
+background-position: center;
+background-repeat:no-repeat;
+background-size: cover;
+}
+
+.bg2 {
+
+background-image: url("afbeeldingen/Unknown-3.jpeg");
+height: 100%;  
+background-position: center;
+background-repeat:no-repeat;
+background-size: cover;
+}
+
+
+  
+}
+
+
+
+
 
 }
 
@@ -61,7 +79,7 @@ p {
 .rij {
   
 }
-kolomLinks {
+.kolomLinks {
   margin-right:20px;
   float:left;
 
@@ -78,7 +96,7 @@ kolomLinks {
 }
 .tekst {
   color:black;
-  background-color: rgba(0,0,255,0.3);
+  
   width: 450px;
   padding: 10px;
 }
@@ -86,7 +104,7 @@ kolomLinks {
 /* Opmaak voor alle pagina's */
 
 h1, h2, h3 {
-      color: #ffffff;
+      color: #000000;
 }
 
 .smalltext {
@@ -132,4 +150,3 @@ nav li a:hover {
 nav li a.active {
     background-color: #00c7fc;
 }
-
