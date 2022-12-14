@@ -20,7 +20,7 @@
 html, body{
   height:100%;
   padding:0;
-  background-image:url('afbeeldingen/achtergrond.jpg');
+  background-image:url('afbeeldingen/wolk.jpg');
   background-repeat:repeat;
   background-attachments:fixed;
   background-size: 100% 100%;
@@ -61,7 +61,7 @@ p {
 .rij {
   
 }
-.kolomLinks {
+kolomLinks {
   margin-right:20px;
   float:left;
 
@@ -77,7 +77,7 @@ p {
   width: 200px;
 }
 .tekst {
-  color:white;
+  color:black;
   background-color: rgba(0,0,255,0.3);
   width: 450px;
   padding: 10px;
@@ -132,3 +132,4 @@ nav li a:hover {
 nav li a.active {
     background-color: #00c7fc;
 }
+
